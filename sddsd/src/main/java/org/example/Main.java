@@ -11,7 +11,7 @@ public class Main {
             int portion = (allMoney / people) ;
             int procent = portion * 10 /100 ;
             int Monay = portion + procent;
-            if (Monay > 0)
+            if (Monay > 0 || allMoney == 0)
             System.out.println(Monay);
             else System.out.println(1);
         }
